@@ -1,12 +1,12 @@
 
-# SITE SETTINGS
+# FILE TO RUN THIS SITE IN LOCAL SERVER
 
 title: A-Community
 des: Everything can be realized.
 description: A Community where the little things can be realized.
 email: avorent@gmail.com
-url: https://avorent.github.io
-
+url: "https://avorent.github.io"
+baseurl: "/avorent.github.io"
 # SITE CONFIG
 
 markdown: kramdown
