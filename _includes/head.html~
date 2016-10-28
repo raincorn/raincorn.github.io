@@ -1,13 +1,20 @@
 <head>
   <meta charset="UTF-8">
-    <title>  {{ site.title }} </title>
-<description> {{ site.description }} </description>
+    <title>{% if page.title %}{{ page.title}} | {{site.title}}{% else %} {{site.title}}{% endif %} </title>
+<!--- Criado por Magno Reis (Alipseight) Made in Brazil -->
+<!--- Cheque nosso repositório no Github, fique à vontade para nos ajudar! -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="/css/bootstrap-theme.min.css">
-  <script src="/js/bootstrap.min.js"> </script>
-  <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/docs.min.css">
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/bootstrap-theme.min.css">
+ <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/docs.min.css.map">
+<!-- Disabled until bootstrap migration is complete -->
+<!--  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/stylesheets/normalize.css" media="screen">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/stylesheets/github-light.css" media="screen">
+-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.min.js"><\/script>')</script>
+ <script src="../dist/js/bootstrap.js"></script>
 </head>
