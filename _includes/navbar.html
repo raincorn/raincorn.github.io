@@ -5,9 +5,8 @@
 </div>
 <ul class="nav navbar-nav">
   <li{% if page.slug== "home" %} class="active"{% endif %}><a href="{{site.baseurl}}/">Home</a></li>
-  <li{% if page.slug== "about" %} class="active" {% endif %}>
-  <a href="{{site.baseurl}}/about">About</a></li>
-  <li><a href="#">Blog</a></li>
+  <li{% if page.slug== "about" %} class="active" {% endif %}><a href="{{site.baseurl}}/about">About</a></li>
+  <li {% if page.slug== "blog" %} class="active" {% endif %}><a href="/blog">Blog</a></li>
   <li><a href="{{site.baseurl}}/participation">Participation</a></li>
 </ul>
 </div>
