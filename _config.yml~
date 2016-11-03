@@ -1,22 +1,17 @@
 
-# FILE TO RUN THIS SITE IN LOCAL SERVER
+# SITE SETTINGS
 
 title: raincorn
 lead: We are work to make the purposes on the web.
 ministry: Alipseight
 maintained: Core team
 email: avorent@gmail.com
-<<<<<<< HEAD
 url: https://avorent.github.io
 repo: avorent/avorent.github.io
 
-=======
-url: "https://avorent.github.io"
-baseurl: "/avorent.github.io"
->>>>>>> 4f51da5adf739d1c977f425bd1141819e6fcbe08
 # SITE CONFIG
 
 curently_version: 2.0.1
-currently_release: 2.0.1
+currently_release: 2.0.1-rls
 currently_stage: beta
 markdown: kramdown
