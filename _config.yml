@@ -12,6 +12,6 @@ repo: avorent/avorent.github.io
 # SITE CONFIG
 
 curently_version: 2.0.1
-currently_release: 2.0.1
+currently_release: 2.0.1-rls
 currently_stage: beta
 markdown: kramdown

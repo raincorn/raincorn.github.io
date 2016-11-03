@@ -45,7 +45,7 @@
                 <ul class="nav masthead-nav">
                   <li {% if page.slug== "home" %} class="active"{% endif %}><a href="{{site.baseurl}}/cover">Home</a></li>
                   <li {% if page.slug== "features" %} class="active"{% endif %}><a href="{{site.baseurl}}/cover/features">Features</a></li>
-                  <li {% if page.slug== "contact" %} class="active"{% endif %}><a href="{{site.baseurl}}/contact">Contact</a></li>
+                  <li {% if page.slug== "stage" %} class="active"{% endif %}><a href="{{site.baseurl}}/stage">Stage</a></li>
                 </ul>
               </nav>
             </div>
@@ -59,7 +59,7 @@
           <div class="mastfoot">
             <div class="inner">
               <p>Created for <a href="{{site.baseurl}}">{{site.title}}</a>, by <a href="https://twitter.com/alipseight" alt="Alipseight">Magno Reis</a>. Maintained by {{site.maintained}}. Improve us on <a href="https://github.com/{{site.repo}}" alt="Improve us in our github repository">Github</a>.</p>
-              <p>Currently v{{site.curently_version}} &middot r{{site.currently_release}} on stage {{site.currently_stage}}.</p>
+              <p>Currently <kbd>v{{site.curently_version}}</kbd>.</p>
             </div>
           </div>
 
