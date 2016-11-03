@@ -1,0 +1,32 @@
+---
+layout: default
+title: Site not found
+slug: 404
+---
+
+<html>
+ {% include head.html %}
+  <body>
+
+    <div class="container-fluid center">
+
+      <h1>404</h1>
+      <p><strong>There isn't a {{site.title}} page here.</strong></p>
+
+      <p>
+        If you're trying to publish one,
+        <a href="{{site.baseurl}}/participation/">read the full documentation</a>
+        to learn how to set up <strong>{{ site.title }}</strong>
+        for your repository, organization, or user account.
+      </p>
+
+      <div id="suggestions">
+        <a href="{{site.baseurl}}/team/alipseight">Magno Reis (Alipseight)</a> —
+        <a href="https://twitter.com/githubstatus">@alipseight</a>
+      </div>
+<hr>
+      <a href="{{site.baseurl}}/" class="btn btn-default">Home</a>
+    </div>
+
+
+</body></html>
