@@ -1,10 +1,10 @@
 ---
-layout: index
+layout: build
 title: Stage
-slug: stage
+slug: build
 ---
 
-This page were created to list our stage of development. Sometimes we work in new features and stles but
+This page were created to list our stage of development. Sometimes we work in new features and project but
 it not will show in our site. So we will list our issues, ideas and progress for this project. Our progress bar
 will help you to see the progress. If you have any ideas send for us, if you have ideas for projects in progress in this page you can create a pull request in our Github or send us an email, just stay in touch.
 
@@ -20,7 +20,7 @@ Marin's Project is the principal and high priority for us. In the development st
 
 
 ## Ink Project
-by <code>Draw team</code>
+#### by <code>Draw team</code>
 
 <strong>Ink Project</strong> is a project dedicated for the design and marketing of {{site.title}}. This project is responsible for make a logo, brand and icon of {{site.title}}.
 
