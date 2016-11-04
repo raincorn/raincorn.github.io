@@ -1,7 +1,3 @@
----
-layout: index
-slug: home
----
 # Welcome to {{page.title}} Webpage!
 
   Here, you'll know about our community and stay in touch with us. This {{page.title}} page is managing by our administrators.
