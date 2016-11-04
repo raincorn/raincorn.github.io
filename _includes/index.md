@@ -1,3 +1,7 @@
+---
+layout: index
+slug: home
+---
 # Welcome to {{site.title}} Webpage!
 
   Here, you'll know about our community and stay in touch with us. This {{site.title}} page is managing by our administrators.
