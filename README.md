@@ -5,5 +5,5 @@ Raincorn -
 **Rain**bow with Uni**corn**
 
 Color 1: #0E4242
-Color 2: #008080 
+Color 2: #008080  v#008080 
 Color 3: #9ABDBD
