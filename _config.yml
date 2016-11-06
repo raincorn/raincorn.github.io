@@ -1,17 +1,18 @@
+#THS IS THE PRINCIPAL FILE ON DIRETORY, IT WILL RUN YOUR SITE, WIHOUT THAT THE SITE.
+# WILL SHOW ERROR.
+# PLEASE, DON'T DELETE ANY VARIABLE IN THIS FILE.
+# IN CASE OF THE DEVELOPMENT USE THE _config-dev.yml FILE.
 
-# FILE TO RUN THIS SITE IN LOCAL SERVER
-
-title: raincorn
-lead: We are work to make the purposes on the web.
-ministry: Alipseight
-maintained: Core team
-email: avorent@gmail.com
-url: "https://avorent.github.io"
-repo: "https://github.com/avorent/avorent.github.io"
+title: raincorn # Title of the site.
+lead: We are work to make the purposes on the web. # Subtitle or site slogan.
+ministry: Alipseight  # Owner of the site.
+maintained: Core team # Person or team that maintain the repository
+email: avorent@gmail.com # Email
+url: "https://avorent.github.io" # site URL
+repo: "https://github.com/avorent/avorent.github.io" # Site repository on Github
 
 # SITE CONFIG
 
-currently_version: 2.0.1
-currently_release: 2.0.1-rls
-currently_stage: beta
-markdown: kramdown
+currently_version: 0.0.0 # Current version
+currently_release: 0.0.0-rls # Current release
+markdown: kramdown # Text type (Github Markdown)
