@@ -43,9 +43,10 @@
               <h3 class="masthead-brand">{% if page.title %} {{page.title}} {% else %} {{site.title}} {% endif %}</h3>
               <nav>
                 <ul class="nav masthead-nav">
-                  <li {% if page.slug== "home" %} class="active"{% endif %}><a href="{{site.baseurl}}/cover">Home</a></li>
+                  <li {% if page.slug== "home" %} class="active"{% endif %}><a href="{{site.baseurl}}/cover">Cover</a></li>
                   <li {% if page.slug== "features" %} class="active"{% endif %}><a href="{{site.baseurl}}/cover/features">Features</a></li>
                   <li {% if page.slug== "stage" %} class="active"{% endif %}><a href="{{site.baseurl}}/stage">Stage</a></li>
+                  <li {% if page.slug== "index" %} class="active"{% endif %}><a href="{{site.baseurl}}/">Home</a></li>
                 </ul>
               </nav>
             </div>
