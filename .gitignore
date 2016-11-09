@@ -1,4 +1,7 @@
 stylesheets/mozilla-responsive.css
-index.html~
-css/avorent.css~
-.yml~
+*.html~
+*.css~
+*.yml~
+*.md~
+*js.~
+.gitignore~

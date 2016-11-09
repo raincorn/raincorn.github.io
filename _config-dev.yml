@@ -5,7 +5,6 @@
 
 title: raincorn
 lead: We are work to make the purposes on the web.
-ministry: Alipseight
 maintained: Core team
 email: avorent@gmail.com
 url: "https://avorent.github.io"
@@ -15,5 +14,4 @@ repo: "https://github.com/avorent/avorent.github.io"
 
 currently_version: 0.0.0
 currently_release: 0.0.0
-currently_stage: beta
 markdown: kramdown
