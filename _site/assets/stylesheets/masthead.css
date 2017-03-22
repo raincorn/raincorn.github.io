@@ -1,5 +1,6 @@
 /* RESPONSIVE MODE TO MASTHEAD */
-/* CREATED BY MAGNO REIS FOR AVORENT COMMUNITY. ALL RIGHTS RESERVED */
+/* CREATED BY MAGNO REIS FOR RAINCORN COMMUNITY. ALL RIGHTS RESERVED */
+/* CODE LICENSED BY MIT LICENSE, FOR IF YOU WANT TO USE, CONTAT THE CORE TEAM */
 @media (max-width: 741px) {
 	.nav-global-main {
 		display: none;
@@ -21,7 +22,7 @@
 	line-height: 19.2px;
 	z-index: 101;
 	position: relative;
-	margin-top: -16px;
+
 }
 body {
 	color: #333;
