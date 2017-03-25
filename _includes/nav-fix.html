@@ -11,13 +11,13 @@
        </div>
        <div id="navbar" class="navbar-collapse collapse">
          <ul class="nav navbar-nav">
-           <li {% if page.slug== "home" %} class="active"{% endif %}><a href="{{site.baseurl}}/">Home</a></li>
-           <li {% if page.slug== "about" %} class="active"{% endif %}><a href="{{site.baseurl}}/about/">About</a></li>
-           <li><a href="{{site.baseurl}}/contact/">Contact</a></li>
+           <li {% if page.slug== "home" %} class="active"{% endif %}><a href="{{site.baseurl}}/"><i class="fa fa-home"></i> Home</a></li>
+           <li {% if page.slug== "about" %} class="active"{% endif %}><a href="{{site.baseurl}}/about/"><i class="fa fa-building"></i> About</a></li>
+           <li {% if page.slug== "contact" %} class="active"{% endif %}><a href="{{site.baseurl}}/about/contact/"><i class="fa fa-envelope-o"></i> Contact</a></li>
            <li {% if page.slug== "stage" %} class="active"{% endif %}class="dropdown">
-             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects... <span class="caret"></span></a>
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-archive"></i> Projects... <span class="caret"></span></a>
              <ul class="dropdown-menu">
-               <li {% if page.slug== "stage" %}class="active"{% endif %}><a href="{{site.baseurl}}/stage">Stage</a></li>
+               <li {% if page.slug== "stage" %}class="active"{% endif %}><a href="{{site.baseurl}}/projects"><i class="fa fa-folder"></i> All Projects</a></li>
                <li><a href="{{site.baseurl}}/alunosmaio/"><i class="fa fa-external-link"></i> AlunosMaio</a></li>
                <li class="disabled" ><a href="#">Something else here</a></li>
                <li role="separator" class="divider"></li>
@@ -28,9 +28,9 @@
            </li>
          </ul>
          <ul class="nav navbar-nav navbar-right">
-           <li {% if page.slug== "team" %} class="active"{% endif %}><a href="{{site.baseurl}}/team/">Team</a></li>
-           <li {% if page.slug== "blog" %} class="active"{% endif %}><a href="{{site.baseurl}}/blog/">Blog</a></li>
-           <li {% if page.slug== "issue" %} class="active"{% endif %}><a href="{{site.baseurl}}/cover/">Cover<span class="sr-only">(current)</span></a></li>
+           <li {% if page.slug== "team" %} class="active"{% endif %}><a href="{{site.baseurl}}/team/"><i class="fa fa-group"></i> Team</a></li>
+           <li {% if page.slug== "blog" %} class="active"{% endif %}><a href="{{site.baseurl}}/blog/"><i class="fa fa-bullhorn"></i> Blog</a></li>
+           <li class="disabled"><a href="{{site.baseurl}}/cover/"><i class="fa fa-dashboard"> Dashboard</i><span class="sr-only">(current)</span></a></li>
          </ul>
        </div><!--/.nav-collapse -->
      </div>

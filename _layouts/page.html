@@ -1,5 +1,16 @@
----
-layout: default
----
+<html lang="en">
+  {% include head.html %}
+  <body id="top">
+    {% include nav-fix.html %}
 
-{{ content }}
+    {% include lead.html %}
+
+    <section class="main-content">
+
+      {{ content }}
+
+    </section>
+
+{% include footer.html %}
+  </body>
+</html>

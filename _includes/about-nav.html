@@ -1,0 +1,16 @@
+<div class="bd-example">
+<ul class="nav nav-tabs justify-content-center">
+  <li {% if page.slug== "about" %} class="nav-item active"{% endif %}>
+    <a href="{{site.baseurl}}/about/"><i class="fa fa-home"></i> Home</a>
+  </li>
+  <li {% if page.slug== "contact" %} class="nav-item active"{% endif %}>
+    <a class="nav-link" href="{{site.baseurl}}/about/contact"><i class="fa fa-envelope"></i> Contact</a>
+  </li>
+  <li {% if page.slug== "contribute" %} class="nav-item active"{% endif %}>
+    <a class="nav-link" href="{{site.baseurl}}/about/contribute"><i class="fa fa-smile-o"></i> Contribute</a>
+  </li>
+  <li {% if page.slug== "join" %} class="nav-item active"{% endif %}>
+    <a class="nav-link" href="{{site.baseurl}}/about/join"><i class="fa fa-sign-in"></i> Join</a>
+  </li>
+</ul>
+</div>

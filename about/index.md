@@ -1,10 +1,15 @@
 ---
-layout: index
+layout: page
 title: About
+lead: This page will tell you about us.
 slug: about
 ---
 
-# So, you want know about us, okay.
+{% include about-nav.html %}
+
+# History
+
+### Do you want know more about us?
 
 We are working to make a  new community of users around the world, the {{site.title}} will work with your
 members to do our and your projects. Formerly the avorent was called as __Azemanks__ and we had a
