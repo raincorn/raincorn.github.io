@@ -13,6 +13,6 @@ repo: "https://github.com/raincorn/raincorn.github.io" # Site repository on Gith
 
 # SITE CONFIG
 
-currently_version: 0.0.0 # Current version
-currently_release: 0.0.0-rls # Current release
+currently_version: v1.0.3 # Current version
+currently_release: v1.0.6-patch.1 # Current release
 markdown: kramdown # Text type (Github Markdown)
