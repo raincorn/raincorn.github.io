@@ -3,7 +3,7 @@ layout: post
 title: Bootstrap 3.3.6 released
 date: 2017-03-27 10:27:05 -0300
 author: Magno Reis
-separator_exceptor: <!--more-->
+excerpt_separator: <!--more-->
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
