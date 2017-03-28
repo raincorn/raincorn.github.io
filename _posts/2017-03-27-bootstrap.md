@@ -3,6 +3,7 @@ layout: post
 title: Bootstrap 3.3.6 released
 date: 2017-03-27 10:27:05 -0300
 author: Magno Reis
+separator_exceptor: <!--more-->
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
@@ -10,7 +11,7 @@ author: Magno Reis
 </div>
 
 Bootstrap 3.3.6 is here! It's a long overdue release that addresses dozens of CSS bug fixes and documentation updates. We've had over 180 commits and 100 closed issues and pull requests from nearly 30 contributors since our last release. Woohoo!
-
+<!--more-->
 Here are some of the highlights:
 
 - Added support for an official NuGet package (yeah, it's an old one, but folks still use it!).
