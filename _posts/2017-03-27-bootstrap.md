@@ -6,9 +6,6 @@ author: Magno Reis
 excerpt_separator: <!--more-->
 ---
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="//www.youtube.com/embed/l-O5IHVhWj0?rel=0" width="760" height="570" allowfullscreen></iframe>
-</div>
 
 Bootstrap 3.3.6 is here! It's a long overdue release that addresses dozens of CSS bug fixes and documentation updates. We've had over 180 commits and 100 closed issues and pull requests from nearly 30 contributors since our last release. Woohoo!
 <!--more-->
